@@ -35,4 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo this is the third line jose angel test.
-          echo this is my secret: ${{ vars.TESTPASSWORD}}!
+          echo this is my secret: ${{ secrets.TESTPASSWORD}}!
